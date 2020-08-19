@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/image_place"
+        android:layout_width="130dp"
+        android:layout_height="95dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="12dp"
+        tools:src="@drawable/taboula"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:id="@+id/text_place_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#223045"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Kejewhd Resturant"
+        android:layout_marginStart="150dp" />
+
+
+    <!-- review images-->
+    <TextView
+        android:id="@+id/text_place_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_place_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/image_place"
+        android:layout_toRightOf="@+id/image_place"
+        android:textColor="#00AD71"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Hours: 8 am - 9 pm" />
+
+    <ImageView
+        android:id="@+id/image_review1"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/text_place_detail"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/image_place"
+        tools:src="@drawable/review"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/image_place" />
+
+    <ImageView
+        android:id="@+id/image_review2"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/text_place_detail"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/image_review1"
+        tools:src="@drawable/review"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/image_review1" />
+
+    <ImageView
+        android:id="@+id/image_review3"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/text_place_detail"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/image_review2"
+        tools:src="@drawable/review"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/image_review2" />
+
+    <ImageView
+        android:id="@+id/image_review4"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/text_place_detail"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/image_review3"
+        tools:src="@drawable/review"
+        android:layout_toRightOf="@+id/image_review3"
+        android:layout_marginLeft="4dp" />
+
+    <ImageView
+        android:id="@+id/image_review5"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_below="@+id/text_place_detail"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/image_review4"
+        android:scaleType="fitXY"
+        tools:src="@drawable/review"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/image_review4" />
+
+</RelativeLayout>

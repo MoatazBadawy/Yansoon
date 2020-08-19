@@ -1,0 +1,69 @@
+<resources>
+    <!--App name-->
+    <string name="app_name">Yansoon</string>
+
+    <!--Menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_world">Explorer</string>
+    <string name="menu_photos">Discover</string>
+    <string name="menu_account">Me</string>
+
+    <!--Tabs-->
+    <string name="category_places">Places</string>
+    <string name="category_resturants">Restaurants</string>
+    <string name="category_photos">Photos</string>
+    <string name="category_photos2">insta</string>
+
+    <!--Toast Message-->
+    <string name="Toast">There is no need to Login because you are a tester :D</string>
+
+    <!--Places Names-->
+    <string name="place_name1">Pyramids</string>
+    <string name="place_name2">Egyptian Museum</string>
+    <string name="place_name3">Khan el-Khalili</string>
+    <string name="place_name4">Salah El Din Al Ayouby Citadel</string>
+    <string name="place_name5">Cairo Tower</string>
+    <string name="place_name6">Al-Azhar Mosque</string>
+    <string name="place_name7">Al Moez Ldin Allah Al Fatmi</string>
+    <string name="place_name8">Giza Zoo</string>
+    <string name="place_name9">Pharaonic Village</string>
+    <string name="place_name10">Coptic Museum</string>
+
+    <!--Restaurants Names-->
+    <string name="restaurant_name1">Pane vino</string>
+    <string name="restaurant_name2">Koshary abu tareq</string>
+    <string name="restaurant_name3">Moataz for egyptian food</string>
+    <string name="restaurant_name4">Original konafa restaurant</string>
+    <string name="restaurant_name5">Baha nasseriya</string>
+    <string name="restaurant_name6">Recep beans and falafel</string>
+    <string name="restaurant_name7">Revolving restaurant</string>
+    <string name="restaurant_name8">Taboula restaurant</string>
+    <string name="restaurant_name9">The grill</string>
+    <string name="restaurant_name10">Zööba</string>
+
+    <!--Details-->
+    <string name="details1">Hours: 8 am - 9 pm</string>
+    <string name="details2">Hours: 6 am - 11 pm</string>
+    <string name="details3">Hours: 10 am - 6 pm</string>
+    <string name="details4">Hours: 11 am - 5 pm</string>
+    <string name="details5">Hours: 8 am - 8 pm</string>
+    <string name="details6">Hours: 7 am - 11 pm</string>
+    <string name="details7">Hours: 9 am - 4 pm</string>
+    <string name="details8">Hours: 11 am - 9 pm</string>
+    <string name="details9">Hours: 10 am - 7 pm</string>
+    <string name="details10">Hours: 6 am - 2 pm</string>
+
+    <!--fragment_account-->
+    <string name="login">Login to your account</string>
+
+    <!--fragment_discover-->
+    <string name="discover">Discovery Cairo</string>
+
+    <!--fragment_home-->
+    <string name="title">Welcome to Egypt</string>
+    <string name="title_splash">Made with ❤ by Moataz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
